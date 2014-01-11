@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		281EA7931881ED9800141C01 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 281EA7921881ED9800141C01 /* Foundation.framework */; };
+		281EA7951881ED9800141C01 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 281EA7941881ED9800141C01 /* CoreGraphics.framework */; };
+		281EA7971881ED9800141C01 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 281EA7961881ED9800141C01 /* UIKit.framework */; };
+		281EA79D1881ED9800141C01 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 281EA79B1881ED9800141C01 /* InfoPlist.strings */; };
+		281EA79F1881ED9800141C01 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 281EA79E1881ED9800141C01 /* main.m */; };
+		281EA7A31881ED9800141C01 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 281EA7A21881ED9800141C01 /* AppDelegate.m */; };
+		281EA7A61881ED9800141C01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 281EA7A41881ED9800141C01 /* Main.storyboard */; };
+		281EA7A91881ED9800141C01 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 281EA7A81881ED9800141C01 /* ViewController.m */; };
+		281EA7AB1881ED9800141C01 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 281EA7AA1881ED9800141C01 /* Images.xcassets */; };
+		281EA7B21881ED9800141C01 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 281EA7B11881ED9800141C01 /* XCTest.framework */; };
+		281EA7B31881ED9800141C01 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 281EA7921881ED9800141C01 /* Foundation.framework */; };
+		281EA7B41881ED9800141C01 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 281EA7961881ED9800141C01 /* UIKit.framework */; };
+		281EA7BC1881ED9800141C01 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 281EA7BA1881ED9800141C01 /* InfoPlist.strings */; };
+		281EA7BE1881ED9800141C01 /* rottentomatoes1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 281EA7BD1881ED9800141C01 /* rottentomatoes1Tests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		281EA7B51881ED9800141C01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 281EA7871881ED9800141C01 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 281EA78E1881ED9800141C01;
+			remoteInfo = rottentomatoes1;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		281EA78F1881ED9800141C01 /* rottentomatoes1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rottentomatoes1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		281EA7921881ED9800141C01 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		281EA7941881ED9800141C01 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		281EA7961881ED9800141C01 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		281EA79A1881ED9800141C01 /* rottentomatoes1-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "rottentomatoes1-Info.plist"; sourceTree = "<group>"; };
+		281EA79C1881ED9800141C01 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		281EA79E1881ED9800141C01 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		281EA7A01881ED9800141C01 /* rottentomatoes1-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "rottentomatoes1-Prefix.pch"; sourceTree = "<group>"; };
+		281EA7A11881ED9800141C01 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		281EA7A21881ED9800141C01 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		281EA7A51881ED9800141C01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		281EA7A71881ED9800141C01 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		281EA7A81881ED9800141C01 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		281EA7AA1881ED9800141C01 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		281EA7B01881ED9800141C01 /* rottentomatoes1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = rottentomatoes1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		281EA7B11881ED9800141C01 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		281EA7B91881ED9800141C01 /* rottentomatoes1Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "rottentomatoes1Tests-Info.plist"; sourceTree = "<group>"; };
+		281EA7BB1881ED9800141C01 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		281EA7BD1881ED9800141C01 /* rottentomatoes1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = rottentomatoes1Tests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		281EA78C1881ED9800141C01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				281EA7951881ED9800141C01 /* CoreGraphics.framework in Frameworks */,
+				281EA7971881ED9800141C01 /* UIKit.framework in Frameworks */,
+				281EA7931881ED9800141C01 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		281EA7AD1881ED9800141C01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				281EA7B21881ED9800141C01 /* XCTest.framework in Frameworks */,
+				281EA7B41881ED9800141C01 /* UIKit.framework in Frameworks */,
+				281EA7B31881ED9800141C01 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		281EA7861881ED9800141C01 = {
+			isa = PBXGroup;
+			children = (
+				281EA7981881ED9800141C01 /* rottentomatoes1 */,
+				281EA7B71881ED9800141C01 /* rottentomatoes1Tests */,
+				281EA7911881ED9800141C01 /* Frameworks */,
+				281EA7901881ED9800141C01 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		281EA7901881ED9800141C01 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				281EA78F1881ED9800141C01 /* rottentomatoes1.app */,
+				281EA7B01881ED9800141C01 /* rottentomatoes1Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		281EA7911881ED9800141C01 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				281EA7921881ED9800141C01 /* Foundation.framework */,
+				281EA7941881ED9800141C01 /* CoreGraphics.framework */,
+				281EA7961881ED9800141C01 /* UIKit.framework */,
+				281EA7B11881ED9800141C01 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		281EA7981881ED9800141C01 /* rottentomatoes1 */ = {
+			isa = PBXGroup;
+			children = (
+				281EA7A11881ED9800141C01 /* AppDelegate.h */,
+				281EA7A21881ED9800141C01 /* AppDelegate.m */,
+				281EA7A41881ED9800141C01 /* Main.storyboard */,
+				281EA7A71881ED9800141C01 /* ViewController.h */,
+				281EA7A81881ED9800141C01 /* ViewController.m */,
+				281EA7AA1881ED9800141C01 /* Images.xcassets */,
+				281EA7991881ED9800141C01 /* Supporting Files */,
+			);
+			path = rottentomatoes1;
+			sourceTree = "<group>";
+		};
+		281EA7991881ED9800141C01 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				281EA79A1881ED9800141C01 /* rottentomatoes1-Info.plist */,
+				281EA79B1881ED9800141C01 /* InfoPlist.strings */,
+				281EA79E1881ED9800141C01 /* main.m */,
+				281EA7A01881ED9800141C01 /* rottentomatoes1-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		281EA7B71881ED9800141C01 /* rottentomatoes1Tests */ = {
+			isa = PBXGroup;
+			children = (
+				281EA7BD1881ED9800141C01 /* rottentomatoes1Tests.m */,
+				281EA7B81881ED9800141C01 /* Supporting Files */,
+			);
+			path = rottentomatoes1Tests;
+			sourceTree = "<group>";
+		};
+		281EA7B81881ED9800141C01 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				281EA7B91881ED9800141C01 /* rottentomatoes1Tests-Info.plist */,
+				281EA7BA1881ED9800141C01 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		281EA78E1881ED9800141C01 /* rottentomatoes1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 281EA7C11881ED9800141C01 /* Build configuration list for PBXNativeTarget "rottentomatoes1" */;
+			buildPhases = (
+				281EA78B1881ED9800141C01 /* Sources */,
+				281EA78C1881ED9800141C01 /* Frameworks */,
+				281EA78D1881ED9800141C01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = rottentomatoes1;
+			productName = rottentomatoes1;
+			productReference = 281EA78F1881ED9800141C01 /* rottentomatoes1.app */;
+			productType = "com.apple.product-type.application";
+		};
+		281EA7AF1881ED9800141C01 /* rottentomatoes1Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 281EA7C41881ED9800141C01 /* Build configuration list for PBXNativeTarget "rottentomatoes1Tests" */;
+			buildPhases = (
+				281EA7AC1881ED9800141C01 /* Sources */,
+				281EA7AD1881ED9800141C01 /* Frameworks */,
+				281EA7AE1881ED9800141C01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				281EA7B61881ED9800141C01 /* PBXTargetDependency */,
+			);
+			name = rottentomatoes1Tests;
+			productName = rottentomatoes1Tests;
+			productReference = 281EA7B01881ED9800141C01 /* rottentomatoes1Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		281EA7871881ED9800141C01 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Y.CORP.YAHOO.COM\\cmaheta84";
+				TargetAttributes = {
+					281EA7AF1881ED9800141C01 = {
+						TestTargetID = 281EA78E1881ED9800141C01;
+					};
+				};
+			};
+			buildConfigurationList = 281EA78A1881ED9800141C01 /* Build configuration list for PBXProject "rottentomatoes1" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 281EA7861881ED9800141C01;
+			productRefGroup = 281EA7901881ED9800141C01 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				281EA78E1881ED9800141C01 /* rottentomatoes1 */,
+				281EA7AF1881ED9800141C01 /* rottentomatoes1Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		281EA78D1881ED9800141C01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				281EA7AB1881ED9800141C01 /* Images.xcassets in Resources */,
+				281EA79D1881ED9800141C01 /* InfoPlist.strings in Resources */,
+				281EA7A61881ED9800141C01 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		281EA7AE1881ED9800141C01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				281EA7BC1881ED9800141C01 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		281EA78B1881ED9800141C01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				281EA7A91881ED9800141C01 /* ViewController.m in Sources */,
+				281EA7A31881ED9800141C01 /* AppDelegate.m in Sources */,
+				281EA79F1881ED9800141C01 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		281EA7AC1881ED9800141C01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				281EA7BE1881ED9800141C01 /* rottentomatoes1Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		281EA7B61881ED9800141C01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 281EA78E1881ED9800141C01 /* rottentomatoes1 */;
+			targetProxy = 281EA7B51881ED9800141C01 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		281EA79B1881ED9800141C01 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				281EA79C1881ED9800141C01 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		281EA7A41881ED9800141C01 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				281EA7A51881ED9800141C01 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		281EA7BA1881ED9800141C01 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				281EA7BB1881ED9800141C01 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		281EA7BF1881ED9800141C01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		281EA7C01881ED9800141C01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		281EA7C21881ED9800141C01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "rottentomatoes1/rottentomatoes1-Prefix.pch";
+				INFOPLIST_FILE = "rottentomatoes1/rottentomatoes1-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		281EA7C31881ED9800141C01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "rottentomatoes1/rottentomatoes1-Prefix.pch";
+				INFOPLIST_FILE = "rottentomatoes1/rottentomatoes1-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		281EA7C51881ED9800141C01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/rottentomatoes1.app/rottentomatoes1";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "rottentomatoes1/rottentomatoes1-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "rottentomatoes1Tests/rottentomatoes1Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		281EA7C61881ED9800141C01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/rottentomatoes1.app/rottentomatoes1";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "rottentomatoes1/rottentomatoes1-Prefix.pch";
+				INFOPLIST_FILE = "rottentomatoes1Tests/rottentomatoes1Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		281EA78A1881ED9800141C01 /* Build configuration list for PBXProject "rottentomatoes1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				281EA7BF1881ED9800141C01 /* Debug */,
+				281EA7C01881ED9800141C01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		281EA7C11881ED9800141C01 /* Build configuration list for PBXNativeTarget "rottentomatoes1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				281EA7C21881ED9800141C01 /* Debug */,
+				281EA7C31881ED9800141C01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		281EA7C41881ED9800141C01 /* Build configuration list for PBXNativeTarget "rottentomatoes1Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				281EA7C51881ED9800141C01 /* Debug */,
+				281EA7C61881ED9800141C01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 281EA7871881ED9800141C01 /* Project object */;
+}
