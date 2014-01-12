@@ -14,13 +14,15 @@
 		281EA79F1881ED9800141C01 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 281EA79E1881ED9800141C01 /* main.m */; };
 		281EA7A31881ED9800141C01 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 281EA7A21881ED9800141C01 /* AppDelegate.m */; };
 		281EA7A61881ED9800141C01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 281EA7A41881ED9800141C01 /* Main.storyboard */; };
-		281EA7A91881ED9800141C01 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 281EA7A81881ED9800141C01 /* ViewController.m */; };
 		281EA7AB1881ED9800141C01 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 281EA7AA1881ED9800141C01 /* Images.xcassets */; };
 		281EA7B21881ED9800141C01 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 281EA7B11881ED9800141C01 /* XCTest.framework */; };
 		281EA7B31881ED9800141C01 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 281EA7921881ED9800141C01 /* Foundation.framework */; };
 		281EA7B41881ED9800141C01 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 281EA7961881ED9800141C01 /* UIKit.framework */; };
 		281EA7BC1881ED9800141C01 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 281EA7BA1881ED9800141C01 /* InfoPlist.strings */; };
 		281EA7BE1881ED9800141C01 /* rottentomatoes1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 281EA7BD1881ED9800141C01 /* rottentomatoes1Tests.m */; };
+		281EA7C91881EDC100141C01 /* MovieListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 281EA7C81881EDC100141C01 /* MovieListViewController.m */; };
+		281EA7CC1881EDD500141C01 /* MovieDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 281EA7CB1881EDD500141C01 /* MovieDetailsViewController.m */; };
+		281EA7CF1882139400141C01 /* MovieDetailViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 281EA7CE1882139400141C01 /* MovieDetailViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +47,18 @@
 		281EA7A11881ED9800141C01 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		281EA7A21881ED9800141C01 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		281EA7A51881ED9800141C01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		281EA7A71881ED9800141C01 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		281EA7A81881ED9800141C01 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		281EA7AA1881ED9800141C01 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		281EA7B01881ED9800141C01 /* rottentomatoes1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = rottentomatoes1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		281EA7B11881ED9800141C01 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		281EA7B91881ED9800141C01 /* rottentomatoes1Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "rottentomatoes1Tests-Info.plist"; sourceTree = "<group>"; };
 		281EA7BB1881ED9800141C01 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		281EA7BD1881ED9800141C01 /* rottentomatoes1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = rottentomatoes1Tests.m; sourceTree = "<group>"; };
+		281EA7C71881EDC100141C01 /* MovieListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovieListViewController.h; sourceTree = "<group>"; };
+		281EA7C81881EDC100141C01 /* MovieListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovieListViewController.m; sourceTree = "<group>"; };
+		281EA7CA1881EDD500141C01 /* MovieDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovieDetailsViewController.h; sourceTree = "<group>"; };
+		281EA7CB1881EDD500141C01 /* MovieDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovieDetailsViewController.m; sourceTree = "<group>"; };
+		281EA7CD1882139400141C01 /* MovieDetailViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovieDetailViewCell.h; sourceTree = "<group>"; };
+		281EA7CE1882139400141C01 /* MovieDetailViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovieDetailViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,10 +121,14 @@
 				281EA7A11881ED9800141C01 /* AppDelegate.h */,
 				281EA7A21881ED9800141C01 /* AppDelegate.m */,
 				281EA7A41881ED9800141C01 /* Main.storyboard */,
-				281EA7A71881ED9800141C01 /* ViewController.h */,
-				281EA7A81881ED9800141C01 /* ViewController.m */,
 				281EA7AA1881ED9800141C01 /* Images.xcassets */,
 				281EA7991881ED9800141C01 /* Supporting Files */,
+				281EA7C71881EDC100141C01 /* MovieListViewController.h */,
+				281EA7C81881EDC100141C01 /* MovieListViewController.m */,
+				281EA7CA1881EDD500141C01 /* MovieDetailsViewController.h */,
+				281EA7CB1881EDD500141C01 /* MovieDetailsViewController.m */,
+				281EA7CD1882139400141C01 /* MovieDetailViewCell.h */,
+				281EA7CE1882139400141C01 /* MovieDetailViewCell.m */,
 			);
 			path = rottentomatoes1;
 			sourceTree = "<group>";
@@ -249,9 +259,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				281EA7A91881ED9800141C01 /* ViewController.m in Sources */,
+				281EA7CC1881EDD500141C01 /* MovieDetailsViewController.m in Sources */,
 				281EA7A31881ED9800141C01 /* AppDelegate.m in Sources */,
 				281EA79F1881ED9800141C01 /* main.m in Sources */,
+				281EA7CF1882139400141C01 /* MovieDetailViewCell.m in Sources */,
+				281EA7C91881EDC100141C01 /* MovieListViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
