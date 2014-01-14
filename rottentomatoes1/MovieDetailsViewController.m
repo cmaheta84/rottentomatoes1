@@ -28,6 +28,16 @@
 {
     [super viewDidLoad];
     self.title = [self.movie objectForKey:@"title"];
+    //self.titleLabel.text = [self.movie objectForKey:@"title"];
+    
+    //self.ratingsLabel.text = [self.movie objectForKey:@"mpaa_rating"];
+    //self.sysLabel.text = [self.movie objectForKey:@"synopsis"];
+    //NSArray *cast = [NSArray array];
+    //cast = [self.movie objectForKey:@"abridged_cast"];
+    //for(int index = 0; index <cast.count;index++) {
+      //  NSDictionary *actors = [cast objectAtIndex:index];
+        //self.actorsLabel.text = [actors objectForKey:@"name"];
+    //}
     
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
@@ -60,7 +70,33 @@
 {
     static NSString *CellIdentifier = @"Cell";
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
-    
+    if (cell != nil) {
+        // This assumes that you set the tag to 1 on the label
+        UILabel *titleLabel = (UILabel *)[cell viewWithTag:101];
+        titleLabel.text = [self.movie objectForKey:@"title"];
+        
+        UILabel *ratingsLabel = (UILabel *)[cell viewWithTag:102];
+        ratingsLabel.text = [self.movie objectForKey:@"mpaa_rating"];
+        
+        UILabel *sysLabel = (UILabel *)[cell viewWithTag:104];
+        sysLabel.text = [self.movie objectForKey:@"synopsis"];
+        
+        NSString *actorsText = @" ";
+        NSArray *cast = [NSArray array];
+        cast = [self.movie objectForKey:@"abridged_cast"];
+        for(int index = 0; index <cast.count;index++) {
+          NSDictionary *actors = [cast objectAtIndex:index];
+        actorsText = [actorsText stringByAppendingString:[actors objectForKey:@"name"]];
+        }
+        
+        UILabel *actorLabel = (UILabel *)[cell viewWithTag:103];
+        actorLabel.text = actorsText;
+        
+        NSDictionary *posters = [self.movie objectForKey:@"posters"];
+        NSString *path = [posters objectForKey:@"profile"];
+        UIImageView *posterView = (UIImageView *)[cell viewWithTag:105];
+        posterView.image = [[UIImage alloc] initWithData:[NSData dataWithContentsOfURL:[NSURL URLWithString:path]]];
+    }
     // Configure the cell...
     
     return cell;
